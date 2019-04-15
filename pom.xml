@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>achook-group</groupId>
+    <artifactId>achook</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>achook-injest-parent</module>
+        <module>achook-process-parent</module>
+        <module>achook-dist-parent</module>
+        <module>achook-ai-parent</module>
+        <module>achook-analytics-parent</module>
+        <module>achook-dashboard-parent</module>
+        <module>achook-ei-parent</module>
+    </modules>
+
+
+</project>

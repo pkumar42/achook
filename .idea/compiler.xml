@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="achook-ai-parent" />
+        <module name="achook-analytics-parent" />
+        <module name="achook-dashboard-parent" />
+        <module name="achook-dist-parent" />
+        <module name="achook-injest-parent" />
+        <module name="achook-process-parent" />
+        <module name="camel-int" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="achook" target="1.5" />
+      <module name="achook-ai-parent" target="1.5" />
+      <module name="achook-analytics-parent" target="1.5" />
+      <module name="achook-dashboard-parent" target="1.5" />
+      <module name="achook-dist-parent" target="1.5" />
+      <module name="achook-ei-parent" target="1.5" />
+      <module name="achook-injest-parent" target="1.5" />
+      <module name="achook-process-parent" target="1.5" />
+      <module name="camel-int" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/achook.iml" filepath="$PROJECT_DIR$/.idea/achook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/achook-ai-parent/achook-ai-parent.iml" filepath="$PROJECT_DIR$/achook-ai-parent/achook-ai-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/achook-analytics-parent/achook-analytics-parent.iml" filepath="$PROJECT_DIR$/achook-analytics-parent/achook-analytics-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/achook-dashboard-parent/achook-dashboard-parent.iml" filepath="$PROJECT_DIR$/achook-dashboard-parent/achook-dashboard-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/achook-dist-parent/achook-dist-parent.iml" filepath="$PROJECT_DIR$/achook-dist-parent/achook-dist-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/achook-ei-parent/achook-ei-parent.iml" filepath="$PROJECT_DIR$/achook-ei-parent/achook-ei-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/achook-injest-parent/achook-injest-parent.iml" filepath="$PROJECT_DIR$/achook-injest-parent/achook-injest-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/achook-process-parent/achook-process-parent.iml" filepath="$PROJECT_DIR$/achook-process-parent/achook-process-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/achook-ei-parent/camel-int/camel-int.iml" filepath="$PROJECT_DIR$/achook-ei-parent/camel-int/camel-int.iml" />
+    </modules>
+  </component>
+</project>

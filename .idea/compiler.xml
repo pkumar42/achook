@@ -13,6 +13,7 @@
         <module name="achook-injest-parent" />
         <module name="achook-process-parent" />
         <module name="camel-int" />
+        <module name="nifi-int" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +26,7 @@
       <module name="achook-injest-parent" target="1.5" />
       <module name="achook-process-parent" target="1.5" />
       <module name="camel-int" target="1.5" />
+      <module name="nifi-int" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

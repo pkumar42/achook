@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/achook-injest-parent/achook-injest-parent.iml" filepath="$PROJECT_DIR$/achook-injest-parent/achook-injest-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/achook-process-parent/achook-process-parent.iml" filepath="$PROJECT_DIR$/achook-process-parent/achook-process-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/achook-ei-parent/camel-int/camel-int.iml" filepath="$PROJECT_DIR$/achook-ei-parent/camel-int/camel-int.iml" />
+      <module fileurl="file://$PROJECT_DIR$/achook-ei-parent/nifi-int/nifi-int.iml" filepath="$PROJECT_DIR$/achook-ei-parent/nifi-int/nifi-int.iml" />
     </modules>
   </component>
 </project>

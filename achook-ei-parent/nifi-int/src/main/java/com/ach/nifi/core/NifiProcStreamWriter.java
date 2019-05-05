@@ -10,9 +10,7 @@ import org.apache.nifi.processor.*;
 import org.apache.nifi.processor.exception.ProcessException;
 import org.apache.nifi.processor.io.OutputStreamCallback;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.nio.charset.Charset;
 import java.util.Collections;
 import java.util.HashSet;
@@ -41,9 +39,10 @@ public class NifiProcStreamWriter extends AbstractProcessor {
         relationships.add(REL_SUCCESS);
         relationships.add(REL_FAILURE);
         this.relationships = Collections.unmodifiableSet(relationships);
-        final InputStream resourceStream = getClass()
-                .getClassLoader().getResourceAsStream("/home/pawan/IdeaProjects/achook/achook-ei-parent/nifi-int/src/main/java/com/ach/nifi/core/file.txt");
+        InputStream resourceStream = null;
+
         try {
+            resourceStream  = new FileInputStream(new File("/home/pawan/IdeaProjects/achook/achook-ei-parent/nifi-int/src/main/java/com/ach/nifi/core/file.txt"));
             this.resourceData = IOUtils.toString(resourceStream, Charset.defaultCharset());
         } catch (IOException e) {
             throw new RuntimeException("Unable to load resources", e);
